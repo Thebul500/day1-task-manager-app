@@ -1,11 +1,16 @@
 # Task Manager
 
 ## Overview
-A full-stack task manager application with a REST API backend and modern frontend UI.
+A simple task manager application built for small business teams and freelancers.
 
-## Requirements
-- Node.js installed on your machine.
-- SQLite or JSON file for persistent storage (JSON is used in this example).
+## Features
+- Create, edit, and delete tasks with titles and descriptions.
+- Mark tasks as complete or incomplete.
+- Filter tasks by status (all, active, completed).
+- Persistent storage that survives server restarts.
+- Clean, intuitive web interface requiring no training.
+- Real-time task statistics (total tasks, completed count).
+- No user authentication needed.
 
 ## Setup
 1. Clone the repository:
@@ -13,23 +18,22 @@ A full-stack task manager application with a REST API backend and modern fronten
    git clone https://github.com/your-repo/task-manager.git
    cd task-manager
    ```
-
 2. Install dependencies:
    ```sh
    npm install
    ```
-
 3. Start the server:
    ```sh
    npm start
    ```
 
-4. Open your browser and navigate to `http://localhost:3000`.
-
 ## Usage
-- Add new tasks by entering a title in the input field and clicking "Add Task".
-- Mark tasks as complete or incomplete using checkboxes.
-- Filter tasks by all, active (not completed), or completed.
+- Open your browser and navigate to `http://localhost:3333`.
+- Use the buttons at the top to filter tasks by status.
+- Click on a checkbox to mark a task as complete or incomplete.
 
-## Notes
-- This is a basic implementation for demonstration purposes. You may want to add more features like user authentication, error handling, and better UI/UX improvements.
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
